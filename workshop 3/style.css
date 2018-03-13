@@ -1,3 +1,24 @@
 .violettext{
     color:violet;
 }
+.box1{
+    width:200px;
+    height:200px;
+    background-color:#FF0000;
+    float:left;
+}
+
+.box2{
+    width:200px;
+    height:200px;
+    background-color:#0000FF;
+    float:left;
+}
+.container{
+    width:400px;
+
+    margin-top:auto;
+    margin-right:auto;
+    margin-left:auto;
+    
+}
