@@ -6,9 +6,11 @@ div{
     outline:1px solid red;
 }
 .container{
-    width:920px;
+    max-width:920px;
     margin-left:auto;
     margin-right:auto;
+    overflow:hidden; /*make the div grow to accommodate float child elements*/
+
 }
 .logoarea{
     width:100%;
@@ -25,5 +27,32 @@ div{
     float:left;
     color:#a37b71;
     font-size:0.9rem;
+    font-family:sans-serif;
+    margin-top:18px;
 }
-
+.nav{
+    background-color: rgba(0,0,0,0,25);
+    height:62px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    max-width:920px
+}
+.nav ol {
+    padding: 18px 10px;
+}
+.nav li {
+    border-right: 1px solid #D4B364;
+    display:block;
+    float:left;
+    font-family:sans-serif;
+    padding:6px 20px;
+}
+.nav li:last-child {
+    border-right:none;
+}
+.greenbox {
+    background-color:#00FF00;
+    max-width:920px;
+    margin:auto;
+}
