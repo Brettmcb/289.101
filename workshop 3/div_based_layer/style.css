@@ -61,3 +61,15 @@ div{
     color:white;
     text-align:left;
 }
+.bluebox{
+    background:#9aaead;
+    color:white;
+    margin-left:240px;
+    margin-right:950px;
+    height:920px;
+}
+.creambox{
+    margin-left:220px;
+    margin-right:71px;
+    
+}
