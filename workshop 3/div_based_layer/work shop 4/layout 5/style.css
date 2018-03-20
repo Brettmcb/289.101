@@ -12,48 +12,129 @@ body{
 }
 .header{
     background-color:blue;
-    height:200px;
+    height:100px;
     width:100%;
 }
-.yellowbox1{
-    background-color:yellow;
-    height:160px;
-    width:160px;
-    margin-top:20px;
-    margin-right:20px;
-    float:right;
-}
-.redrectangle1{
-    height:400px;
-    width:200px;
-    background-color: red;
-    float:left;
-}
-.redrectangle2{
-    height:400px;
-    width:720px;
-    background-color: red;
-    float:left; 
-}
-.yellow1{
-    height:160px;
-    width:160px;
+.title1{
     background-color: yellow;
-    margin-top:20px;
-    margin-left:20px;
-    float:left;
-}
-.yellow2{
-    background-color: yellow;
-    width:500px;
-    height:360px;
+    height:60px;
+    width:300px;
     float:left;
     margin-top:20px;
     margin-left:20px;
+}
+.title2{
+    background-color: yellow;
+    height:60px;
+    width:560px;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+}
+.greenbox1{
+    background-color: greenyellow;
+    width:100%;
+    height:600px;
+}
+.redbox1{
+    background-color: red;
+    width:100%;
+    height:400px;
+}
+.yellowlong{
+    background-color: yellow;
+    width:880px;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+    height:120px;
+}
+.yellowboxes{
+    background-color: yellow;
+    width: 280px;
+    height:220px;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+}
+.bigblue{
+    background-color: blue;
+    width:100%;
+    height:800px;
+    float:left;
+    margin-top:20px;
+}
+.longyellow2{
+    background-color: yellow;
+    width:880px;
+    height:100px;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+}
+.yellowboxes2{
+    background-color: yellow;
+    width:205px;
+    height:200px;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+}
+.greenbox2{
+    background-color: greenyellow;
+    width:100%;
+    height:600px;
+    float:left;
+}
+.longyellow3{
+    background-color: yellow;
+    width:880px;
+    height:120px;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+}
+.yellowboxes3{
+    background-color: yellow;
+    width:280px;
+    height:420px;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+}
+.redbox2{
+    background-color: red;
+    width:100%;
+    height:600px;
+    float:left;
+}
+.longyellow4{
+    background-color: yellow;
+    width:880px;
+    height:100px;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+}
+.bigyellow{
+    background-color: yellow;
+    width:580px;
+    height:440px;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+}
+.smallyellow{
+    background-color: yellow;
+    float:left;
+    width:280px;
+    height:280px;
+    margin-left:20px;
+    margin-top:20px;
 }
 .footer{
-    background-color: green;
-    width:920px;
-    height:200px;
+    background-color: blue;
+    width:100%;
+    height:100px;
     float:left;
 }
