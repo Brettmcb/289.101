@@ -1,0 +1,59 @@
+div{
+    outline:1px solid lime;
+}
+/*
+body{
+    background-color:red;
+}*/
+.container{
+    width:920px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.header{
+    background-color:blue;
+    height:200px;
+    width:100%;
+}
+.yellowbox1{
+    background-color:yellow;
+    height:160px;
+    width:160px;
+    margin-top:20px;
+    margin-right:20px;
+    float:right;
+}
+.redrectangle1{
+    height:400px;
+    width:200px;
+    background-color: red;
+    float:left;
+}
+.redrectangle2{
+    height:400px;
+    width:720px;
+    background-color: red;
+    float:left; 
+}
+.yellow1{
+    height:160px;
+    width:160px;
+    background-color: yellow;
+    margin-top:20px;
+    margin-left:20px;
+    float:left;
+}
+.yellow2{
+    background-color: yellow;
+    width:500px;
+    height:360px;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+}
+.footer{
+    background-color: green;
+    width:920px;
+    height:200px;
+    float:left;
+}
