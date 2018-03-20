@@ -52,7 +52,12 @@ div{
     border-right:none;
 }
 .greenbox {
-    background-color:#00FF00;
-    max-width:920px;
-    margin:auto;
+    margin-left:240px;
+    margin-right:240px;
+    margin-top:20px;
+    background:#8da987;
+    height:212px;
+    font-size:50px;
+    color:white;
+    text-align:left;
 }
