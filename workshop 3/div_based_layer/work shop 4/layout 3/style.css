@@ -15,15 +15,3 @@ body{
     height:200px;
     width:100%;
 }
-.redboxes{
-    background-color: red;
-    width:306px;
-    height:400px;
-    float:left;
-}
-.footer{
-    background-color: green;
-    height:200px;
-    width:920px;
-    float:left;
-}
