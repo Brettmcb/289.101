@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
 div{
     outline:1px solid lime;
 }
@@ -5,9 +6,37 @@ div{
 body{
     background-color:#f2f2f2;
     margin:0 0 0 0;
+    font-family: 'Lato', sans-serif;
 }
 .header{
     background-color:#2d303a;
     height:90px;
     color:#FFFFFF;
+}
+.nav{
+    max-width: 950px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.logo{
+    float:left;
+    margin-top:35px;
+    font-size:1.4rem;
+}
+.links{
+    margin-top:40px;
+    font-size:0.75rem;
+    float:right;
+}
+.links a{
+    color:#FFFFFF;
+    text-decoration:none;
+    padding-left:10px;
+    padding-right: 10px;
+}
+.links a:hover{
+    color:#f06c64
+}
+.salmon{
+    color:#f06c64;
 }
