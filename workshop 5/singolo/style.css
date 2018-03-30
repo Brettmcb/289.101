@@ -70,6 +70,7 @@ body{
     margin:0;
     background-color: #f2f2f2;
     height:500px;
+    margin-top:60px;
 }
 .centre{
     width: 950px;
@@ -83,6 +84,50 @@ body{
     height:220px;
     float:left;
 }
+.contenta{
+    width:100%;
+    height:110px;
+    float:left;
+}
+.contenta img{
+    height:60px;
+    width:60px;
+    float:left;
+}
+.customtype{
+    height:100%;
+    width:80%;
+    float:left;
+}
+.customdesign{
+    font-size:15px;
+    float:left;
+    float:top;
+    margin-left:20px;
+}
+.customparagrapha{
+    font-size:10px;
+    float:left;
+    float:top;
+    margin-left:20px;
+    margin-top:0px;
+}
+.contentb{
+    width:100%;
+    height:109px;
+    float:left;
+}
+.contentb img{
+    height:60px;
+    width:60px;
+    float:left;
+}
+.customparagraphb{
+    font-size:10px;
+    float:left;
+    margin-left:20px;
+    margin-top:0px;
+}
 .content2{
     width:33.33%;
     height:220px;
@@ -92,4 +137,36 @@ body{
     width:33.33%;
     height:220px;
     float:left;
+}
+.portfolio{
+    width:100%;
+    height:870px;
+    background-color:#2d303a;
+    float:left;
+    margin:0;
+}
+.portfoliocontainer{
+    width:950px;
+    margin-left:auto;
+    margin-right:auto;
+    height:730px;
+}
+.portfolioheading{
+    color:#666d89;
+    font-size:25px;
+}
+.portfolioparagraph{
+    color:#666d89;
+    margin-top:30px;
+    font-size:14px;
+}
+.portfoliolinks{
+    color:#666d89;
+}
+.portfoliolinks a{
+    text-decoration:none;
+    color:#666d89;
+}
+.portfoliolinks a:hover{
+    color:#c5c5c5;
 }
