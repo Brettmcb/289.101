@@ -183,9 +183,8 @@ body{
     background-color:#f2f2f2;
     height:737px;
     width:950px;
-    margin-top:20px;
     margin-left:auto;
-    margin-right:auto;
+    float:left;
 }
 .aboutusheading{
     color:#666d89;
