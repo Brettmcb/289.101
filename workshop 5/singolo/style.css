@@ -182,5 +182,11 @@ body{
 .aboutus{
     background-color:#f2f2f2;
     height:737px;
-    float:left;
+    width:950px;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.aboutusheading{
+    color:#666d89;
 }
