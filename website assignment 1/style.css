@@ -1,6 +1,6 @@
 
 div{
-    outline:1px solid lime;
+    outline:0px solid lime;
 }
 
 body{
@@ -49,7 +49,7 @@ body{
     width:950px;
     margin-left:auto;
     margin-right:auto;
-    margin-top:50px;
+    margin-top:100px;
 }
 .pink1{
     background-color:#e1b3bb;
@@ -75,4 +75,39 @@ body{
     font-family: 'Lato', sans-serif;
     margin-top: 250px;
     margin-left: 50px;
+}
+.footer{
+    background-color:#FFFFFF;
+    margin:100px 0 0 0;
+    height:200px;
+    border-top:4px solid #e1b3bb;
+}
+.footercontainer{
+    background-color:#FFFFFF;
+    width:950px;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer img{
+    height:100px;
+    margin-left:400px;
+    margin-right:425px;
+    margin-top: 25px;
+}
+.type{
+    height:50px;
+    width:445px;
+    font-family: 'Lato', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+.type a{
+    color:#000000;
+    text-decoration:none;
+    padding-left:50px;
+    padding-right:50px;
+}
+.type a:hover{
+    color:#e1b3bb;
 }
