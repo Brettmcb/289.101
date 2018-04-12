@@ -6,7 +6,6 @@ div{
 body{
     background-color:#FFFFFF;
     margin:0 0 0 0;
-    font-family: 'Lato', sans-serif;
 }
 .header{
     background-color:#FFFFFF;
@@ -33,6 +32,7 @@ body{
     font-size:0.95rem;
     float:right;
     color:#000000;
+    font-family: 'Lato', sans-serif;
 }
 .links a{
     color:#000000;
@@ -44,15 +44,35 @@ body{
     color:#e1b3bb;
 }
 .bigpic{
-    background-color:#e1b3bb;
-    height:500px;
+    background-color:#FFFFFF;
+    height:600px;
     width:950px;
     margin-left:auto;
     margin-right:auto;
-    border-top:4px solid #FFFFFF;
+    margin-top:50px;
+}
+.pink1{
+    background-color:#e1b3bb;
+    width:500px;
+    height:500px;
+    float:left;
     margin-top:50px;
 }
 .bigpic img{
-    margin-left:660px;
+    height:600px;
+    float:left;
+}
+.pink2{
+    background-color:#e1b3bb;
+    width:95px;
     height:500px;
+    float:left;
+    margin-top:50px;
+}
+.iambrett{
+    font-size:100px;
+    color:#FFFFFF;
+    font-family: 'Lato', sans-serif;
+    margin-top: 250px;
+    margin-left: 50px;
 }
