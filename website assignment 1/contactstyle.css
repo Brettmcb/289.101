@@ -1,6 +1,6 @@
 
 div{
-    outline:0px solid lime;
+    outline:1px solid lime;
 }
 
 body{
@@ -12,6 +12,13 @@ body{
     height:60px;
     color:#FFFFFF;
     border-bottom:4px solid #e1b3bb;
+    position:fixed;
+    width:100%;
+}
+.main {
+  padding: 16px;
+  margin-top: 0px;
+  height: 1000px;
 }
 .headercontainer{
     max-width:950px;
@@ -63,7 +70,12 @@ body{
     margin-bottom: 50px;
 }
 .spacing1{
-    margin-bottom:20px;
+    width:350px;
+    height:60px;
+    margin-left:auto;
+    margin-right:auto;
+    color:#e1b3bb;
+    font-size:50px;
 }
 
 

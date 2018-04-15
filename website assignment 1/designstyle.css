@@ -12,6 +12,13 @@ body{
     height:60px;
     color:#FFFFFF;
     border-bottom:4px solid #e1b3bb;
+    position:fixed;
+    width:100%;
+}
+.main {
+  padding: 16px;
+  margin-top: 0px;
+  height: 1000px;
 }
 .headercontainer{
     max-width:950px;
