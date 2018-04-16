@@ -11,7 +11,7 @@ body{
     background-color:#FFFFFF;
     height:60px;
     color:#FFFFFF;
-    border-bottom:4px solid #e1b3bb;
+    border-bottom:4px solid #cc1a21;
     position:fixed;
     width:100%;
 }
@@ -47,7 +47,7 @@ body{
     padding-right:40px;
 }
 .links a:hover{
-    color:#e1b3bb;
+    color:#cc1a21;
 }
 .container1{
     background-color:#FFFFFF;
@@ -72,7 +72,7 @@ body{
     font-size:10px;
     height:30px;
     width: 100%;
-    border-bottom:4px solid #e1b3bb;
+    border-bottom:4px solid #cc1a21;
 }
 .masthead1{
     margin-top: 50px;
@@ -129,7 +129,7 @@ body{
     background-color:#FFFFFF;
     margin:90px 0 0 0;
     height:200px;
-    border-top:4px solid #e1b3bb;
+    border-top:4px solid #cc1a21;
 }
 .footercontainer{
     background-color:#FFFFFF;
@@ -158,5 +158,5 @@ body{
     padding-right:50px;
 }
 .type a:hover{
-    color:#e1b3bb;
+    color:#cc1a21;
 }
