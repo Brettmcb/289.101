@@ -113,6 +113,13 @@ body{
     margin-top: 50px;
     margin-left:50px;
 }
+.about a{
+    color:#FFFFFF;
+    text-decoration:none;
+}
+.about a:hover{
+    color:#000000;
+}
 .footer{
     background-color:#FFFFFF;
     margin:100px 0 0 0;
