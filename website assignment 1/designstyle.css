@@ -1,6 +1,6 @@
 
 div{
-    outline:1px solid lime;
+    outline:0px solid lime;
 }
 
 body{
@@ -76,7 +76,6 @@ body{
 }
 .masthead1{
     margin-top: 50px;
-    
     height:150px;
     width: 100%;
 }
