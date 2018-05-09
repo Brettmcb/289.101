@@ -26,6 +26,10 @@
     width:100px;
 }
 
+.purple{
+    background-color: purple;
+    height: 100px;
+}
 /* xs */
     body {background-color: white;}
 
