@@ -1,0 +1,74 @@
+.blue{
+    background-color: lightblue;
+    height: 100px;
+}
+
+.green{
+    background-color: greenyellow;
+    height:100px;
+}
+
+.orange{
+    background-color: orange;
+    height:500px;
+}
+
+.maroon{
+    background-color: maroon;
+    height:200px;
+}
+
+.grey{
+    background-color: grey;
+    height: 100px;
+    margin-top:20px;
+    padding-left:10px;
+    width:100px;
+}
+
+/* xs */
+    body {background-color: white;}
+
+/* sm */
+@media (min-width:576px){
+    body {background-color: white;}
+}
+
+/* md */
+@media (min-width:768px){
+    body {background-color: white;
+    }
+    .green{
+        height:150px; 
+    }
+    .orange{
+        height:450px;
+    }
+    .maroon{
+        height: 450px;
+    }
+}
+
+/* lg */
+@media (min-width:992px){
+    body {background-color: pink;
+    }
+    .blue{
+        height: 50px;
+    }
+    .green{
+        height: 700px;
+    }
+    .orange{
+        height: 700px;
+    }
+    .maroon{
+        height: 700px;
+    }
+}
+
+
+        
+        
+        
+        
