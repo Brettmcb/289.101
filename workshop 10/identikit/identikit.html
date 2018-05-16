@@ -52,16 +52,16 @@
   <div id="controls">
     <a id="eyes_up_btn">move eyes up</a>
     <a id="eyes_down_btn">move eyes down</a>
-    <a>move eyes closer together</a>
-    <a>move eyes further apart</a>
-    <a>hollow eyes</a>
-    <a>solid eyes</a>
+    <a id="eyes_closer_btn">move eyes closer together</a>
+    <a id="eyes_further_btn">move eyes further apart</a>
+    <a id="hollow_btn">hollow eyes</a>
+    <a id="solid_btn">solid eyes</a>
     <a>big eyes</a>
     <a>small eyes</a>
-    <a>no right eye</a>
+    <a id="no_right_eye_btn">no right eye</a>
     <a id="happy_mouth_btn">happy mouth</a>
     <a id="sad_mouth_btn">sad mouth</a>
-    <a>reset face</a>
+    <a id="reset_btn">reset face</a>
   </div>
 
   <div id="face">
@@ -106,6 +106,40 @@
       document.getElementById('eye_right').style.top = eye_right_y + 'px';
     });
       
+       // move eyes closer together event listener
+    document.getElementById('eyes_closer_btn').addEventListener('click', function() {
+        eye_left_x += 10;
+        document.getElementById('eye_left').style.left = eye_left_x + 'px';
+        eye_right_x -= 10;
+        document.getElementById('eye_right').style.left = eye_right_x + 'px';
+    }); 
+      
+      // move eyes further apart event listener
+    document.getElementById('eyes_further_btn').addEventListener('click', function() {
+        eye_left_x -= 10;
+        document.getElementById('eye_left').style.left = eye_left_x + 'px';
+        eye_right_x += 10;
+        document.getElementById('eye_right').style.left = eye_right_x + 'px';
+    }); 
+      
+       // hollow eyes
+    document.getElementById('hollow_btn').addEventListener('click', function() {
+      document.getElementById('eye_left').src = 'eye_hollow.svg';
+      document.getElementById('eye_right').src = 'eye_hollow.svg';
+    });
+      
+      // solid eyes
+    document.getElementById('solid_btn').addEventListener('click', function() {
+      document.getElementById('eye_left').src = 'eye_solid.svg';
+      document.getElementById('eye_right').src = 'eye_solid.svg';
+    });
+      
+      // no right eye
+    document.getElementById('no_right_eye_btn').addEventListener('click', function() {
+        eye_right_x = 0;
+        document.getElementById('eye_right').style.size = eye_right_x + 'px';
+    });
+      
        // make sad
     document.getElementById('sad_mouth_btn').addEventListener('click', function() {
       document.getElementById('mouth').src = 'mouth_sad.svg';
@@ -115,6 +149,12 @@
     document.getElementById('happy_mouth_btn').addEventListener('click', function() {
       document.getElementById('mouth').src = 'mouth_happy.svg';
     });
+      
+      // reset face
+    document.getElementById('reset_btn').addEventListener('click', function() {
+     
+    });
+      
   </script>
 
 </body>
