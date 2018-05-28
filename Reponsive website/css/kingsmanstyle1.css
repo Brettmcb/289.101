@@ -1,0 +1,421 @@
+
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.header{
+    height: 420px;
+    background-color: #F2F2F2;
+    margin-top: 50px;
+    border-bottom: 2px solid #ecc056;
+}
+.logobox{
+    height: 300px;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logobox img{
+    height: 300px;
+}
+.title{
+    width: 340px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title1{
+    height: 50px;
+    width: 340px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #C4C4C4;
+    margin-top: 20px;
+}
+.slogan{
+    height: 30px;
+    width: 340px;
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+    margin-top: 0px;
+}
+.logobox2{
+    height: 170px;
+    width: 170px;
+    float: left;
+    margin-top: 10px;
+}
+.logobox2 img{
+    height: 150px;
+}
+
+
+.menu{
+    height: 40px;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.menu a{
+    color:#000000;
+    text-decoration:none;
+    padding-left:10px;
+    padding-right:10px;
+}
+.menu a:hover{
+    color:#ecc056;
+}
+
+
+
+.about{
+    height: 400px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.abouttitle{
+    width: 230px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #C4C4C4;
+    margin-top: 20px;
+}
+.paragraph{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+.suits{
+    width: 340px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 30px;
+    color: #C4C4C4;
+}
+
+.body{
+    height: 5300px;
+    background-color: #F2F2F2;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+}
+.suitcontainer{
+    height: 500px;
+    width: 281.8px;
+    background-color: #C4C4C4;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+.suitcontainer img{
+    height: 500px;
+    width: 281.8px;
+    margin-top: 12px;
+}
+.suitcontainer1{
+    height: 100px;
+    width: 266.5px;
+    margin-top: 0px;
+}
+.suitname{
+    height: 40px;
+    width: 266.5px;
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+}
+.price{
+    height: 50px;
+    width: 266.5px;
+    text-align: center;
+    color: #ecc056;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.contact{
+    background-color:#F2F2F2;
+    height:650px;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+}
+.contacttitle{
+    color:#000000;
+    font-family: 'Roboto', sans-serif;
+    height:100px;
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+}
+.spacing{
+    margin-bottom: 50px;
+}
+.spacing1{
+    width:100%;
+    text-align: center;
+    height:60px;
+    margin-left:auto;
+    margin-right:auto;
+    color:#C4C4C4;
+    font-size:30px;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #ecc056;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #000000;
+}
+
+
+.footer{
+    height: 20px;
+    width: 100%;
+    background-color: #C4C4C4;
+}
+
+.form{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* xs */
+@media (min-width:300px){
+    body {background-color: #F2F2F2;}
+}
+
+/* sm */
+@media (min-width:576px){
+    body {background-color: #F2F2F2;}
+    .title1{
+        font-size: 50px;
+        height: 60px;
+    }
+    .header{
+        height: 450px;
+    }
+    .about{
+        width: 500px;
+        height: 250px;
+    }
+    .paragraph{
+        width: 500px;
+    }
+    .form{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contacttitle{
+        margin-left:auto;
+        margin-right:auto;
+        width:400px;
+    }
+}
+
+/* md */
+@media (min-width:768px){
+    body {background-color: ;
+    }
+    .header{
+        height: 200px;
+    }
+    .logobox{
+        float: left;
+        margin-top: 10px;
+    }
+    .title{
+        height: 110px;
+        float: left;
+        width: 450px;
+        margin-top: 20px;
+    }
+    .title1{
+        font-size: 50px;
+        height: 60px;
+        width: 450px;
+    }
+    .slogan{
+        float: left;
+        width: 450px;
+    }
+    .logobox{
+        height: 170px;
+        width: 170px;
+    }
+    .logobox img{
+        height: 150px;
+    }
+    .body{
+        height: 2700px;
+        background-color: #F2F2F2;
+        margin-left: auto;
+        margin-right: auto;
+        width: 690px;
+    }
+    .suitcontainer{
+        height: 500px;
+        width: 281.8px;
+        background-color: #C4C4C4;
+        float: left;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        margin-left: 25px;
+    }
+    .suitcontainer img{
+        height: 500px;
+        width: 281.8px;
+    }
+    .about{
+        width: 650px;
+        height: 220px;
+    }
+    .paragraph{
+        width: 650px;
+    }
+    .menu{
+        width: 400px;
+    }
+    .menu a{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .form{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contacttitle{
+        margin-left:auto;
+        margin-right:auto;
+        width:600px;
+    }
+}
+
+/* lg */
+@media (min-width:992px){
+    body {background-color: ;
+    }
+     .title{
+        height: 110px;
+        float: left;
+        width: 550px;
+    }
+    .title1{
+        font-size: 60px;
+        height: 70px;
+        width: 550px;
+    }
+    .slogan{
+        float: left;
+        width: 550px;
+        font-size: 15px;
+    }
+    .body{
+        height: 2800px;
+        background-color: #F2F2F2;
+        margin-left: auto;
+        margin-right: auto;
+        width: 930px;
+    }
+    .suitcontainer{
+        height: 532.29px;
+        width: 300px;
+        background-color: #C4C4C4;
+        float: left;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    .suitcontainer img{
+        height: 532.29px;
+        width: 300px;
+    }
+    about.{
+        height: 200px;
+    }
+    .form{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contacttitle{
+        margin-left:auto;
+        margin-right:auto;
+        width:800px;
+    }
+ 
+}
+/* xl */
+@media (min-width:1200px){
+    body {background-color: ;
+    }
+    .title{
+        height: 110px;
+        float: left;
+        width: 720px;
+        margin-top: 5px;
+    }
+    .title1{
+        font-size: 80px;
+        height: 95px;
+        width: 720px;
+    }
+    .slogan{
+        float: left;
+        width: 720px;
+        font-size: 20px;
+    }
+    .body{
+        height: 2100px;
+        background-color: #F2F2F2;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1110px;
+   }
+   .suitcontainer{
+        height: 532.29px;
+        width: 300px;
+        background-color: #C4C4C4;
+        float: left;
+        margin-top: 50px;
+        margin-left: 50px;
+   }
+
+}

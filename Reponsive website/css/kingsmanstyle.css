@@ -1,3 +1,67 @@
-body{
+/* body{
     background-color: #F2F2F2;
+}*/
+.header{
+    background-color: #F2F2F2;
+    height: 667px;
+}
+.body{
+    background-color: #F2F2F2;
+    height: 4000px;
+}
+.footer{
+    background-color: #C4C4C4;
+    height: 300px;
+}
+.spacing{
+    height: 25px;
+}
+.contact{
+    text-align: center;
+    font-size: 25px;
+     font-family: 'Roboto', sans-serif;
+}
+.suit{
+    background-color: grey;
+    height: 532.29px;
+    width: 300px;
+    margin-left: 35px;
+}
+.suit1{
+    background-color: grey;
+    height: 532.29px;
+    width: 300px;
+    margin-left: 35px;
+    margin-top: 135px;
+}
+/* xs */
+    body {background-color: pink;}
+
+/* sm */
+@media (min-width:576px){
+    body {background-color: greenyellow;}
+}
+
+/* md */
+@media (min-width:768px){
+    body {background-color: red;
+    }
+    .header{
+        height: 460px;
+    }
+    .body{
+        height: 2000px;
+    }
+}
+
+/* lg */
+@media (min-width:992px){
+    body {background-color: goldenrod;
+    }
+    .header{
+        height: 400px;
+    }
+    .body{
+        height: 1400px;
+    }
 }
