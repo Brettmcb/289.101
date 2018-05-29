@@ -74,6 +74,10 @@
     color:#ecc056;
 }
 
+a:hover{
+    color: #F2F2F2;
+}
+
 
 
 .about{
@@ -243,7 +247,7 @@ input[type=submit]:hover {
 
 
 .footer{
-    height: 20px;
+    height: 50px;
     width: 100%;
     background-color: #C4C4C4;
 }
