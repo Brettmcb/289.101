@@ -216,6 +216,32 @@ input[type=submit]:hover {
 }
 
 
+.backpage{
+    height: 500px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carttitle{
+    width: 250px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #C4C4C4;
+    margin-top: 20px;
+    text-align: center;
+}
+.message{
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+.backbtn{
+    height: 200px;
+    margin-top: 30px;
+}
+
+
 .footer{
     height: 20px;
     width: 100%;
